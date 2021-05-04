@@ -14,5 +14,5 @@ func panicker()  {
 			fmt.Println("Error: ",err)
 		}
 	}()
-	panic ("Lỗi........")
+	panic ("Lỗi........ rồi")
 }
