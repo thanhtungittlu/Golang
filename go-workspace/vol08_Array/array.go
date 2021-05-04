@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println("Hello")
+/*	fmt.Println("Bài về mảng")
 	points := [...]int{7, 10, 5} //Cach 1
 	// var points [3]int          //Cach2
 	// points[0] = 7
@@ -15,5 +17,5 @@ func main() {
 	// points1 := points // Copy mảng ban đầu, không liên quan gì tới mảng cũ
 	points1[1] = 30
 	fmt.Println(points1)
-	fmt.Println(points)
+	fmt.Println(points) */
 }

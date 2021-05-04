@@ -7,6 +7,7 @@ func main() {
 		if i%2 == 0 {
 			fmt.Println(i)
 		}
+		
 	}
 	fmt.Println()
 	j := 1
@@ -45,6 +46,9 @@ func main() {
 	fmt.Println()
 	s := "Hello World"
 	for index, value := range s {
-		fmt.Println(index, "  ", string(value))
+		fmt.Println(index, "  ", value)
+	}
+	for index, value := range s {
+		fmt.Println(index, " ", string(value))
 	}
 }
