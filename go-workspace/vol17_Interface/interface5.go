@@ -15,6 +15,6 @@ func main(){
 
 /*
  s, ok := i.(T)
- Câu lệnh trên được hiểu là, nếu kiểu cụ thể của i là T thì v sẽ nhận giá trị cơ bản của i và ok là true.
- Nếu kiểu cụ thể của i không là T thì ok sẽ là false và v sẽ nhận zero value của kiểu T và chương
+ Câu lệnh trên được hiểu là, nếu kiểu cụ thể của i là T thì s sẽ nhận giá trị cơ bản của i và ok là true.
+ Nếu kiểu cụ thể của i không là T thì ok sẽ là false và s sẽ nhận zero value của kiểu T và chương
  */
