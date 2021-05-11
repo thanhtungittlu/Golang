@@ -29,7 +29,7 @@ func main()  {
 	secondChanUrl:= make (chan string)
 	thirdChanUrl := make (chan string)
 
-	f, err := os.OpenFille("save.txt",os.O_APPEND|os.O_WRONLY,os.ModeAppend)
+	f, err := os.Open("save.txt")
 	if err != nil {
 		log.Println(err)
 		return
