@@ -1,0 +1,2 @@
+Chào mừng bạn đến với bài hướng dẫn 22 trong loạt bài hướng dẫn Golang. Trong trường hợp bạn bỏ lỡ phần bài hướng dẫn trước, bạn có thể đọc nó ở đây.
+Trong hướng dẫn trước, chúng ta đã thảo luận về cách đạt được sự tương tranh trong Go bằng cách sử dụng Goroutines. Trong hướng dẫn này, chúng ta sẽ thảo luận về các kênh (sau đây gọi là channels) và cách Goroutines giao tiếp bằng cách sử dụng channels.

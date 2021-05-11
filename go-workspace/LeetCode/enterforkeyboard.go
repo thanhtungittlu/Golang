@@ -12,5 +12,5 @@ func main() {
 
 	//fmt.Println(reader)
     city, _ := reader.ReadString('\n')
-    fmt.Printf("%T You live in ",city)
+    fmt.Printf("%T  ",city)
 }
