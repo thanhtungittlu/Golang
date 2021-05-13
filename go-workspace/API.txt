@@ -1,0 +1,42 @@
+I: API là gì.
+-> Api: Viết tắt của từ Application programming interface. Là cách để các phần mềm, hệ điều hành giao tiếp với nhau.
+-> Api là cách giao tiếp giữa frontend và backend, dùng để lập trình đa ứng dụng, đa nền tảng. Có thể dùng 1 backend để xử lí các tác vụ trên web, app desktop, app mobiles
+-> Api có thể hiểu các khác nữa là 1 chương trình làm việc với dữ liệu(DB) thông qua 1 giao thức để trả về 1 kết quả.
+
+->Ví dụ: - HĐH: API để đọc ghi file, kết nối internet.
+       - Di động: API định vị, xem thời lượng pin.
+       - Web: API lấy dữ liệu từ google sheet, từ youtube,....
+
+-> Chức năng: - Sử dụng chức năng đọc file, ghi file,... mà không cần đụng trực tiếp tới code của hệ điều hành.
+	- Trao đổi dữ liệu, lấy thông tin từ FB, Youtube, Google mà không trực tiếp truy cập vào Database
+	- Bảo mật / tái sử dụng: Tận dụng lại những thứ người khác đã làm. Chỉ cần viết "What", Không cần biết "How"
+
+-> Hầu hết các công việc bây giờ là lắp ráp và sử dụng API nhiều hơn là tự viết API từ đầu.
+
+-> Hai cách dùng phổ biến:
+Cách 1: API của ngôn ngữ/Hệ điều hành:
+- Cung cấp SDK sẵn(SDK: tập hợp nhiều API, viết code trực tiếp để gọi)
+Cách 2: API của hệ thống khác(Youtube,FB): thì mình có thể dùng SDK sẵn với RESTful API, dùng HTTP Protocol, Data có dạng JSON hoặc XML
+
+-> Các API được sử dụng trong thực tế:
+FB Graph API: Có thể đếm số lượng bạn bè, đếm số lượng comment, đếm số lượng like
+Google login, Fb Login: Có thể đăng nhập vào FB, google , thì có thể dùng API này
+Google Map: Hầu như chương trình nào dùng map, thì đều gọi API của google Map(Chứ k ai rảnh làm Map từ đầu)
+
+-> API hay:
+Microsoft Cognition: Nhận diện mặt, con vật,...
+Google translate: Dùng để làm chương trình dịch ngôn ngữ.
+
+II: REST là gì
+
+-> REST là phương thức tạo API với nguyên lý tổ chức nhất định. Những nguyên lý này nhằm hướng dẫn lập trình viên tạo môi trường xử lý API request được toàn diện.
+
+III: RESTful API là gì
+
+-> RESTful mang những tính chất  REST
+
+-> RESTful API là một tiêu chuẩn dùng trong việc thiết kế API cho các ứng dụng web (thiết kế Web services) để tiện cho việc quản lý các resource. Nó chú trọng vào tài nguyên hệ thống (tệp văn bản, ảnh, âm thanh, video, hoặc dữ liệu động…), bao gồm các trạng thái tài nguyên được định dạng và được truyền tải qua HTTP.
+
+
+
+	
